@@ -9,11 +9,11 @@
             clone-depth="1" />
 
  <!--Tree -->
- <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="los" revision="lineage-21" />
- <project path="device/xiaomi/sm8250" name="android_device_xiaomi_sm8250-common" remote="los" revision="lineage-21" />
+ <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="los" revision="crd" />
+ <project path="device/xiaomi/sm8250" name="android_device_xiaomi_sm8250-common" remote="los" revision="crd" />
 
  <!--Kernel -->
- <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="los" revision="lineage-20" />
+ <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="los" revision="lineage-custom" />
 
  <!--Vendor -->
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="gitea" revision="lineage-21" />
