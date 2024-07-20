@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="los"
-            fetch="https://github.com/orgs/Cunyuk-Hubs"
+            fetch="https://github.com/Cunyuk-Hubs"
             clone-depth="1" />
 
    <remote name="gitea"
