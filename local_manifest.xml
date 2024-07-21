@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="gitea"
+        <remote name="Cunyuk-Hubs" 
+                fetch="https://github.com/Cunyuk-Hubs"
+                clone-depth="1" />
+        
+        <remote name="erwinabs"
                 fetch="https://gitea.com/erwinabs"
-                revision="lineage-21" 
                 clone-depth="1" />
 
         <!-- Device Trees -->
-        <project path="device/xiaomi/munch" name="Cunyuk-Hubs/android_device_xiaomi_munch" remote="github" revision="lineage-21"  />
-        <project path="device/xiaomi/sm8250-common" name="Cunyuk-Hubs/android_device_xiaomi_sm8250-common" remote="github" revision="lineage-21"  />
+        <project path="device/xiaomi/munch" name="Cunyuk-Hubs/android_device_xiaomi_munch" remote="Cunyuk-Hubs" revision="lineage-21"  />
+        <project path="device/xiaomi/sm8250-common" name="Cunyuk-Hubs/android_device_xiaomi_sm8250-common" remote="Cunyuk-Hubs" revision="lineage-21"  />
         <project path="device/xiaomi/munch" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21"  />        
 
         <!-- Vendor Trees-->
-        <project path="vendor/xiaomi/munch" name="vendor_xiaomi" remote="gitea" />
+        <project path="vendor/xiaomi/munch" name="vendor_xiaomi" remote="erwinabs" />
 
         <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="Cunyuk-Hubs/android_kernel_xiaomi_sm8250" remote="github" revision="lineage-21"  />
+        <project path="kernel/xiaomi/munch" name="Cunyuk-Hubs/android_kernel_xiaomi_sm8250" remote="Cunyuk-Hubs" revision="lineage-21"  />
 
         <!-- Firmware-->
         <!-- Miui Camera-->
