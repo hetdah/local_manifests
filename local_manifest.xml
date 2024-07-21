@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <project path="device/xiaomi/munch" name="Cunyuk-Hubs/android_device_xiaomi_munch" remote="github.com" revision="lineage-21" />
- <project path="device/xiaomi/sm8250" name="Cunyuk-Hubs/android_device_xiaomi_sm8250-common" remote="github.com" revision="lineage-21" />
- <project path="kernel/xiaomi/sm8250" name="Cunyuk-Hubs/android_kernel_xiaomi_sm8250" remote="github.com" revision="lineage-20" />
+ <project path="device/xiaomi/munch" name="Cunyuk-Hubs/android_device_xiaomi_munch" remote="github" revision="lineage-21" />
+ <project path="device/xiaomi/sm8250" name="Cunyuk-Hubs/android_device_xiaomi_sm8250-common" remote="github" revision="lineage-21" />
+ <project path="kernel/xiaomi/sm8250" name="Cunyuk-Hubs/android_kernel_xiaomi_sm8250" remote="github" revision="lineage-20" />
  <project path="vendor/xiaomi" name="erwinabs/vendor_xiaomi" remote="gitea.com" revision="lineage-21" />
- <project path="hardware/xiaomi" name="LineageOS/hardware_xiaomi" remote="github.com" revision="lineage-21" />  
+ <project path="hardware/xiaomi" name="LineageOS/hardware_xiaomi" remote="github" revision="lineage-21" />  
 </manifest>
