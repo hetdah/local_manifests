@@ -14,7 +14,7 @@
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21"  />        
 
         <!-- Vendor Trees-->
-        <project path="vendor/xiaomi/munch" name="vendor_xiaomi" remote="erwinabs" />
+        <project path="vendor/xiaomi/munch" name="vendor_xiaomi" remote="erwinabs" revision="lineage-21" />
 
         <!-- Kernel-->
         <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_sm8250" remote="Cunyuk-Hubs" revision="lineage-21"  />
