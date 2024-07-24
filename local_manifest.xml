@@ -10,14 +10,7 @@
 
         <!-- Device Trees -->
         <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="Cunyuk-Hubs" revision="crd"  />
-        <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="Cunyuk-Hubs" revision="crd"  />
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21"  />        
 
-        <!-- Vendor Trees-->
-        <project path="vendor/xiaomi" name="vendor_xiaomi" remote="erwinabs" revision="lineage-21" />
-
-        <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_sm8250" remote="Cunyuk-Hubs" revision="lineage-21" clone-depth="1" />
 
         <!-- Firmware-->
         <!-- Miui Camera-->
