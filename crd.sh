@@ -3,13 +3,13 @@
 rm -rf .repo/local_manifests/
 
 # repo init rom
-repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs --depth=1
+repo init -u https://github.com/RisingTechOSS/android.git -b fourteen --git-lfs --depth=1 
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Local manifests
-git clone https://github.com/hetdah/local_manifests --depth 1 -b crd .repo/local_manifests
+git clone https://github.com/hetdah/local_manifests --depth 1 -b rising .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -30,8 +30,8 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-breakfast munch userdebug
+riseup munch userdebug
 echo "============="
 
 # Build rom
-brunch munch
+mka bacon
